@@ -73,11 +73,11 @@ function buttonAnimation(button) {
 }
 
 // Mobile Friendly Drums to remove keyboard letters
-document.querySelector("body").onload = () => {
-	if (screen.width <= 450) {
-		var drums = document.querySelectorAll(".drum").length;
-		for (var i = 0; i < drums; i++) {
-			document.querySelectorAll(".drum")[i].innerHTML = "";
-		}
-	}
-};
+// document.querySelector("body").onload = () => {
+// 	if (screen.width <= 450) {
+// 		var drums = document.querySelectorAll(".drum").length;
+// 		for (var i = 0; i < drums; i++) {
+// 			document.querySelectorAll(".drum")[i].innerHTML = "";
+// 		}
+// 	}
+// };
